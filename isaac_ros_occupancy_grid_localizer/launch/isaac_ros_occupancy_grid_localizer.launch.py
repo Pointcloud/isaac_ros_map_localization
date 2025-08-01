@@ -17,12 +17,12 @@
 
 import os
 
-from ament_index_python.packages import get_package_share_directory
+from ament_index_python.packages import get_package_share_directory # type: ignore
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import ComposableNodeContainer
-from launch_ros.descriptions import ComposableNode
+from launch.actions import DeclareLaunchArgument # type: ignore
+from launch.substitutions import LaunchConfiguration  # type: ignore
+from launch_ros.actions import ComposableNodeContainer # type: ignore
+from launch_ros.descriptions import ComposableNode # type: ignore
 
 
 def generate_launch_description():

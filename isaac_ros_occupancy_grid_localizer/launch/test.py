@@ -3,7 +3,7 @@ import os
 
 from ament_index_python.packages import get_package_share_directory #type: ignore
 
-from launch import LaunchDescription
+from launch import LaunchDescription # type: ignore
 from launch.actions import GroupAction # type: ignore
 from launch_ros.actions import ComposableNodeContainer # type: ignore
 from launch_ros.descriptions import ComposableNode # type: ignore

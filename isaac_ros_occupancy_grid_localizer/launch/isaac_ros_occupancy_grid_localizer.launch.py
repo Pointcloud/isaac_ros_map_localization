@@ -18,7 +18,7 @@
 import os
 
 from ament_index_python.packages import get_package_share_directory # type: ignore
-from launch import LaunchDescription
+from launch import LaunchDescription # type: ignore
 from launch.actions import DeclareLaunchArgument # type: ignore
 from launch.substitutions import LaunchConfiguration  # type: ignore
 from launch_ros.actions import ComposableNodeContainer # type: ignore
